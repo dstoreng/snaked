@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: Daniel Storeng
+Main-Class: src.snaked.template.Game
+Permissions: sandbox
+Codebase: www.storeng.it/snaked.html
+Application-Name: Game
+Application-Library-Allowable-Codebase: www.storeng.it
