@@ -100,7 +100,10 @@ public class Player implements ImageObserver{
 		for(int i = snakeLength; i > 0; i--){
 			X[i] = X[i-1];
 			Y[i] = Y[i-1];
-			positions.add(new Pair(X[i],Y[i]));
+			/*
+			 * TODO Not working as intended..
+			 */
+			positions.add(new Pair<Integer,Integer>(X[i],Y[i]));
 		}
 		
 		if(dir == Direction.LEFT)
